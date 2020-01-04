@@ -39,14 +39,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link active text-dark " href="#"
+                  <a class="nav-link active text-dark " data-scroll href="#top"
                     ><span>Home</span></a
                   >
                 </li>
 
                 <a
                   class="nav-link  text-dark "
-                  href="html/pages/terminology.html"
+                  data-scroll 
+                  href="#terminology"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
@@ -55,7 +56,8 @@
                 </a>
                 <a
                   class="nav-link  text-dark "
-                  href="html/pages/terminology.html"
+                  data-scroll
+                  href="#products"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
@@ -66,7 +68,6 @@
                 <li class="nav-item dropdown">
                   <a
                     class="nav-link dropdown-toggle text-dark"
-                    href="#"
                     id="dropdown-3"
                     role="button"
                     data-toggle="dropdown"
@@ -75,19 +76,20 @@
                   >
                     Wave Methods
                   </a>
-                  <div class="dropdown-menu" aria-labelledby="dropdown-3">
-                    <a class="dropdown-item" href="html/pages/contact.html"
+                  <div class="dropdown-menu" aria-labelledby="dropdown-3" >
+                    <a class="dropdown-item" data-scroll
+                        href="#training"
                       >Training Phrase</a
                     >
-                    <a class="dropdown-item" href="html/pages/changelog.html"
+                    <a class="dropdown-item" data-scroll
+                        href="#development"
                       >Development Phrase</a
                     >
-                    <a class="dropdown-item" href="html/pages/faq.html"
+                    <a class="dropdown-item" data-scroll
+                        href="#development"
                       >Focus Phrase</a
                     >
-                    <a class="dropdown-item" href="html/pages/pricing.html"
-                      >Maintenance Phrase</a
-                    >
+                    
 
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="html/pages/404.html"></a>
@@ -109,7 +111,7 @@
     <!-- / header -->
 
     <!-- Intro-->
-    <section class="bg-white">
+    <section class="bg-white" id="Intro">
       <div class="container">
         <p class="text-center font-weight-bold">About Me</p>
         <p>
@@ -134,7 +136,7 @@
           <a
             class="lightbox"
             href="../app/assets/images/back.jpg"
-            title="Image title"
+            title="360waves back"
           >
             <img src="../app/assets/images/back.jpg" alt="Image" />
           </a>
@@ -143,7 +145,7 @@
           <a
             class="lightbox"
             href="../app/assets/images/right.jpg"
-            title="Image title"
+            title="360waves right"
           >
             <img src="../app/assets/images/right.jpg" alt="Image" />
           </a>
@@ -152,7 +154,7 @@
           <a
             class="lightbox"
             href="../app/assets/images/topright.jpg"
-            title="Image title"
+            title="360waves topright"
           >
             <img src="../app/assets/images/topright.jpg" alt="Image" />
           </a>
@@ -161,7 +163,7 @@
           <a
             class="lightbox"
             href="../app/assets/images/topleft1.jpg"
-            title="Image title"
+            title="360waves topleft"
           >
             <img src="../app/assets/images/topleft1.jpg" alt="Image" />
           </a>
@@ -172,7 +174,7 @@
     <!-- / Intro-->
 
     <!-- / Wave Terminology  -->
-    <section class=" bg-light">
+    <section class=" bg-light" id="terminology">
       <div class="container">
         <p class="text-center font-weight-bold">Wave Terminology</p>
         <h6 class="text-left font-weight-bold ">Type of wave styles</h6>
@@ -200,16 +202,8 @@
               data-parent="#accordion-1"
             >
               <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.
+                  
+                    <img  class="rounded mx-auto d-block" src="../app/assets/images/180waves.jpeg" title="180waves">
               </div>
             </div>
           </div>
@@ -386,7 +380,7 @@
             role="tabpanel"
             aria-labelledby="pills-home-tab"
           >
-            <p>
+            <p class="">
               Wolfing is growing your hair as long as possible while brushing to
               deepen waves and improve connections. For best results grow hair
               until it's no longer manageable. Thats when your hair
@@ -425,15 +419,16 @@
     <!--  Wave Terminology  -->
 
     <!-- Wave Methods-->
-    <section class="bg-white">
+    <section class="bg-white" id="methods">
       <div class="container">
-        <p class="text-center font-weight-bold">Wave Methods</p>
+        <p class="text-center font-weight-bold" id="methods">Wave Methods</p>
         <div class="accordion accordion-stack" id="accordion-2">
           <div class="card active">
             <div class="card-header" id="heading-2-1">
               <h5 class="mb-0">
                 <button
                   class="btn btn-link"
+                  id="training"
                   type="button"
                   data-toggle="collapse"
                   data-target="#collapse-2-1"
@@ -458,17 +453,17 @@
               <div class="card-body">
                 <hr />
                 <ul>
-                  <li>
+                  <li class="mb-1">
                     Start at the crown and only brush in the desired direction;
                     do this for each section. End each brush stroke at the hair
                     line.
                   </li>
 
-                  <li>
+                  <li class="mb-1">
                     Wear a du-rag when you sleep at night
                   </li>
 
-                  <li>
+                  <li class="mb-1" >
                     Start with pomade then switch to cremes or gels once your
                     hair is trained
                   </li>
@@ -481,6 +476,7 @@
               <h5 class="mb-0">
                 <button
                   class="btn btn-link collapsed "
+                  id="Development"
                   type="button"
                   data-toggle="collapse"
                   data-target="#collapse-2-2"
@@ -504,33 +500,33 @@
               <div class="card-body">
                 <hr />
                 <ul>
-                  <li>
+                  <li class="mb-1">
                     Add an excess amount of pomade to your hair, use a soft
                     brush to make sure the pomade is evenly applied to your
                     whole head.
                   </li>
 
-                  <li>
+                  <li class="mb-1">
                     Get in the shower with warm water, with water running over
                     your hair use a Med brush. Start at the crown and brush to
                     the the hair line with each stroke.
                   </li>
 
-                  <li>
+                  <li class="mb-1">
                     Get out of the shower and brush with a soft brush starting
                     at th crown to hair line. Brush until hair is damp then
                     du-rag.
                   </li>
 
-                  <li>
+                  <li class="mb-1">
                     Use a towel to remove pomade from face then du-rag until
                     hair is dry.
                   </li>
-                  <li>
+                  <li class="mb-1">
                     Use cheap soft and med brushes for this method, because the
                     brisles will collect a lot of pomade.
                   </li>
-                  <li>
+                  <li class="mb-1">
                     You will get best results if you wolf during this phrase and
                     have your hair even all over.
                   </li>
@@ -543,6 +539,7 @@
               <h5 class="mb-0">
                 <button
                   class="btn btn-link collapsed"
+                  id="focus"
                   type="button"
                   data-toggle="collapse"
                   data-target="#collapse-2-3"
@@ -567,16 +564,16 @@
               <div class="card-body">
                 <hr />
                 <ul>
-                  <li>
+                  <li class="mb-1">
                     Locate the fork you want to connect, look at the wave above thats not connected. Start your brush stroke at that point and brush toward the hair
                     line and repeat. For best results pomade and durag when you are done brushing.
                   </li>
 
-                  <li>
+                  <li class="mb-1">
                     I recommend using a  flat brush while focus brushing the hair line. 
                   </li>
 
-                  <li>
+                  <li class="mb-1" >
                     Start with pomade then switch to cremes or gels once your
                     hair is trained
                   </li>
@@ -590,7 +587,7 @@
     <!-- / Wave Methods-->
 
     <!-- Products-->
-    <section class="bg-light">
+    <section class="bg-light" id="products">
       <div class="container">
         <p class="text-center font-weight-bold ">Recommended Hair Products</p>
         <div class="conatiner">
@@ -696,7 +693,7 @@
               
                   <a
                     href="https://www.amazon.com/Torino-Wave-Brushes-Brush-King/dp/B07MYZBHQY/ref=sr_1_8?keywords=soft+wave+brush&qid=1577420638&s=beauty&sr=1-8">Torino
-                    Pro Wave Brush Soft</a>
+                    Pro Wave Brush Soft</img>
                     
               </td>
 
