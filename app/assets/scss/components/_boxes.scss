@@ -6,13 +6,13 @@
 %boxed {
 	@include shadow;
 	border-radius: $border-radius;
-	border: $border-width solid $border-color;
+	border: $border-width solid $lightblue;
 	background: white;
 }
 
 %bordered {
 	@include border-radius;
-	border: $border-width solid $border-color;
+	border: $border-width solid $lightblue;
 }
 
 

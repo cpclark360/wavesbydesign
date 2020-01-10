@@ -170,7 +170,7 @@
 		&:not(:first-of-type):not(:last-of-type),
 		&:first-of-type {
 			@include border-radius;
-			border-bottom: $border-width solid $border-color;
+			border-bottom: $border-width solid #93c3e9;
 		}
 
 		&:last-of-type {
