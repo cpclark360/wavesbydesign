@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "http-server",
-    "postinstall": "gulp build"
+    "postinstall": "gulp default"
   },
   "author": "Cedric Clark",
   "devDependencies": {
