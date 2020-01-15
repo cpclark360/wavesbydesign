@@ -6,4 +6,4 @@ Install
 -------------------------------------
 
 1. cli type  " npm install "
-2. start browsersync to run 
+2. run live server or type 'gulp'
